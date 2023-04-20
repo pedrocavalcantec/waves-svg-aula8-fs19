@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+img{
+    width: 45px;
+    margin-left: 3px;
+}
+#sobre{
+    padding: 60px 0;
+    background-image: url("wave.svg") , url("wave\ invertido.svg");
+    background-repeat: no-repeat;
+    background-position: bottom, top;
+    display: flex;
+    align-items: center;
+
+}
+
+#sobre .container{
+    padding: 0 120px;
+}
+
+#sobre h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 56px;
+}
+
+#sobre h2 + p{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sobre ul {
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#sobre ul li {
+    padding: 26px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #00000050;
+    background-color: #ffffff;
+}
+
+#sobre ul li .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #999999;
+    margin-bottom: 16px;
+}
+
+#sobre ul li h5 {
+    font-size: 18px
+}
+
+#Depoimentos{
+    padding: 60px 0;
+    background-color: #5134cf;
+}
+
+#Depoimentos .container{
+    padding: 0 120px;
+}
+
+#Depoimentos h2{
+    font-size: 48px;
+    text-align: center;
+}
+
+#Depoimentos ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+#Depoimentos ul li{
+    padding: 26px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #00000030;
+}
+
+#Depoimentos ul li h5{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#Depoimentos ul li h5 .foto{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #999999;
+}
